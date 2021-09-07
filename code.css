@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav
+{
+    width: 100%;
+    height:150px;
+    display:flex;
+    position: absolute;
+    
+}
+
+.logo-text
+{
+    flex: .5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.code
+{
+    width: 8%;
+    height: 25px;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+}
+
+.logo
+{
+    width: 40%;
+    height: 100%;
+}
+
+.navlinks{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.navlink ,.navlink a{
+    text-decoration: none;
+    list-style:none;
+    z-index: 1;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+}
+
+.navlink a{
+    padding: 4px 14px 4px 14px;
+    
+    border-radius: 5px;
+}
+
+.navlink a:hover {
+    background-color: rgba(245 ,222,453,0.7);
+}
+
+
+
+.first-sec
+{
+    display:flex;
+    width: 100%;
+    height: 100vh;
+}
+.text-button
+{
+    width: 100%;
+    height: 100vh;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.courses-list
+{
+    flex: 1;
+    width: 100%;
+    height:100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.bgvedio
+{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    object-fit: fill;
+    opacity: 0.7;
+}
+
+.website-name
+{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    margin: 0px 0px 30px 0px;
+}
+
+.heading-first
+{
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 0px -100px;
+}
+
+.certification
+{
+    font-size: 18px ;
+    padding: 4px 14px 4px 14px;
+    margin:100px 0px 0px -210px;
+    background-color:transparent;
+    border: 2px solid white;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+
+.certification:hover{
+    background-color:white;
+    color: black;
+}
+
+/* .sub-course
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 25px 300px 25px 250px;
+    margin: 10% 0px 0px 0px;
+    border-radius: 20px;
+    background-color: rgba(153, 5, 153, 0.548);
+}
+
+.high{
+    font-size: 50px;
+    color:rgb(0, 0, 0);
+}
+
+
+.coursr-list{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0px 0px 30px 0px;
+    font-weight: 900;
+}
+
+.enroll
+{
+     font-size: 18px ;
+    padding: 4px 22px 4px 22px;
+    margin: 70px 0px 50px 10px;
+    background-color:transparent;
+    border: 2px solid white;
+    font-weight: 900;
+    cursor: pointer;
+    color: white;
+}
+
+.enroll:hover{
+    background-color:white;
+    color: black;
+} */
+
+
+
+.course-brief
+{
+    width: 100%;
+    height: 700px;
+    margin: auto;
+    display:flex;
+    background-color: rgb(224, 238, 247);
+    flex-direction:column;
+}
+
+.section-text
+{
+    flex: 1;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.course-head
+{
+    font-size: 50px;
+    font-weight:700;
+    color: darkblue;
+}
+
+.thumbnail
+{
+    flex: 1;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+.thumba {
+    width: 15%;
+    height: 70%;
+    background-color: darkcyan;
+    display: flex;
+    border:2px solid darkcyan;
+    border-radius: 10px;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+.web-dev
+{
+    background-image: url(/img/webd.jpg);
+    background-size: cover;
+}
+
+.mach-lern
+{
+    background-image: url(img/machinel.jpg);
+    background-size: cover;
+}
+
+
+.data-sci
+{
+    background-image:url(img/datas2.jpg);
+    background-size: cover;
+}
+
+.languages
+{
+    background-image:url(img/snake.jpg);
+    background-size: cover;
+}
+
+.database
+{
+    background-image:url(img/datas.jpg);
+    background-size: cover;
+}
+
+.thumba-head
+{
+    background-color:rgb(11, 9, 97);
+    padding:0px 10px 0px 10px;
+    border-radius: 5px;
+}
+
+
+.plans
+{
+    width: 100%;
+    height:100vh;
+    display:flex;
+    background-color: rgb(224, 238, 247);
+    padding: 300px 0px 0px 0px;
+    flex-direction: column;
+}
+
+.p-web
+{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.p-web-text{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px 20px 50px;
+}
+
+.p-web-img{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-database
+{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    justify-content:center;
+}
+
+.p-data-text
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px 20px 100px;
+}
+
+
+.p-data-img
+{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.p-button-sec
+{
+    flex:.5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-full
+{
+    font-size: 24px;
+    padding: 4px 14px 4px 14px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border:none;
+}
+
+.cta-full:hover{
+    background-color:lightslategray;
+    color: white;
+}
